@@ -8,4 +8,12 @@ git add .
 
 git commit -m "Type yout Message"
 
-git push -u origin main
+
+git remote add ReposName pasteURL (don't do this if already added remote repos with this command earlier)
+
+git push -u ReposName main
+
+if error occurs in push:
+git pull --rebase ReposName main or master
+
+git push -u ReposName main
