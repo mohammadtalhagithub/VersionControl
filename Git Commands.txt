@@ -1,0 +1,11 @@
+cd "/D/C#/Git Repository"
+
+git init
+
+git status
+
+git add .
+
+git commit -m "Type yout Message"
+
+git push -u origin main
