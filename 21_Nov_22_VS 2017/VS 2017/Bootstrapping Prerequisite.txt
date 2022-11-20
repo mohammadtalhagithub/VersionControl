@@ -1,0 +1,4 @@
+https://docs.microsoft.com/en-us/visualstudio/deployment/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt?view=vs-2022&tabs=csharp
+
+
+https://docs.microsoft.com/en-us/visualstudio/deployment/creating-bootstrapper-packages?view=vs-2022

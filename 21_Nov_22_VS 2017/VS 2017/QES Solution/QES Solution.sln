@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2017
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QES Connect", "QES Connect\QES Connect.csproj", "{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C68AE3D0-9D0A-43B3-BDD7-63E9151A05C7}
+	EndGlobalSection
+EndGlobal

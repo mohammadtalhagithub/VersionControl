@@ -1,0 +1,39 @@
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\QES Connect.exe.config
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\QES Connect.exe
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\QES Connect.pdb
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\BouncyCastle.Crypto.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Bunifu_UI_v1.5.3.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\itextsharp.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\MaterialSkin.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\SplashScreen.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Zeroit.Framework.LollipopControls.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Zeroit.Framework.Progress.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.csproj.ResolveComReference.cache
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Admin_Form.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Backup_Control.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Connect_Control.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Dashboard_Control.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.DeviceNotConnected_Promt.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Form1.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.frmMessageYesNo.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.frmMessageOK.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Graph_Control.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Password_Form.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Preferences_Control.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Properties.Resources.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Setup_Control.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.Splash.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES_Connect.TileClass.resources
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.csproj.GenerateResource.cache
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.exe.licenses
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.csproj.CoreCompileInputs.cache
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.csproj.CopyComplete
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.exe
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.pdb
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Resources\QES_Connect_LOGO.png
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Transitions.dll
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Transitions.pdb
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Resources\connect_page.png
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Resources\settings_page.png
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\bin\Debug\Resources\backup_page.png
+F:\Talha\C#\backup\17_Sep_2022_VS 2017\VS 2017\QES Solution\QES Connect\obj\Debug\QES Connect.csprojAssemblyReference.cache

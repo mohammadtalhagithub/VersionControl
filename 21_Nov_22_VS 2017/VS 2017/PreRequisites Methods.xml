@@ -1,0 +1,5 @@
+<Prerequisites_Methods>
+<Method>ClickOnce</Method>
+<Method>InstallerProjects</Method>
+<Method>SetupProjects</Method>
+</Prerequisites_Methods>
