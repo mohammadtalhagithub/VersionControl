@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47B2356E-1D47-4F45-A98C-7A1DE3E54B4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QES_Connect</RootNamespace>
+    <AssemblyName>QES Connect</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>QES_Connect_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Talha\Desktop\DISK1\program files\Nextsense Technology\NextComm\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin">
+      <HintPath>C:\Users\Talha\Desktop\DISK1\program files\Nextsense Technology\NextComm\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Zeroit.Framework.LollipopControls">
+      <HintPath>C:\Users\Talha\Desktop\DISK1\program files\Nextsense Technology\NextComm\Zeroit.Framework.LollipopControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Zeroit.Framework.Progress">
+      <HintPath>C:\Users\Talha\Desktop\DISK1\program files\Nextsense Technology\NextComm\Zeroit.Framework.Progress.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Form.Designer.cs">
+      <DependentUpon>Admin_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Backup_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Backup_Control.Designer.cs">
+      <DependentUpon>Backup_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connect_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Connect_Control.Designer.cs">
+      <DependentUpon>Connect_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard_Control.Designer.cs">
+      <DependentUpon>Dashboard_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard_loading_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard_loading_Form.Designer.cs">
+      <DependentUpon>dashboard_loading_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceNotConnected_Promt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeviceNotConnected_Promt.Designer.cs">
+      <DependentUpon>DeviceNotConnected_Promt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageYesNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageYesNo.Designer.cs">
+      <DependentUpon>frmMessageYesNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageOK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageOK.Designer.cs">
+      <DependentUpon>frmMessageOK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graph_Control.Designer.cs">
+      <DependentUpon>Graph_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyMessageBox.cs" />
+    <Compile Include="Password_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password_Form.Designer.cs">
+      <DependentUpon>Password_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preferences_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Preferences_Control.Designer.cs">
+      <DependentUpon>Preferences_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Settings1.cs" />
+    <Compile Include="ScalingClass.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Setup_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setup_Control.Designer.cs">
+      <DependentUpon>Setup_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TileClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TileClass.Designer.cs">
+      <DependentUpon>TileClass.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin_Form.resx">
+      <DependentUpon>Admin_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup_Control.resx">
+      <DependentUpon>Backup_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connect_Control.resx">
+      <DependentUpon>Connect_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard_Control.resx">
+      <DependentUpon>Dashboard_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard_loading_Form.resx">
+      <DependentUpon>dashboard_loading_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeviceNotConnected_Promt.resx">
+      <DependentUpon>DeviceNotConnected_Promt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageYesNo.resx">
+      <DependentUpon>frmMessageYesNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageOK.resx">
+      <DependentUpon>frmMessageOK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph_Control.resx">
+      <DependentUpon>Graph_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password_Form.resx">
+      <DependentUpon>Password_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preferences_Control.resx">
+      <DependentUpon>Preferences_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Setup_Control.resx">
+      <DependentUpon>Setup_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TileClass.resx">
+      <DependentUpon>TileClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connected-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QES Connect LOGO.ico" />
+    <Content Include="QES_Connect_Icon.ico" />
+    <None Include="Resources\QES_Watermark.png" />
+    <None Include="Resources\QES_Splash_PNG.png" />
+    <None Include="Resources\QES_Splash_Transparent_22.png" />
+    <None Include="Resources\QES_Connect_Title-05.png" />
+    <None Include="Resources\QES_Connect_LOGO-05.png" />
+    <None Include="Resources\QES_Splash_Transparent_Png.png" />
+    <None Include="Resources\QES_Splash_Transparent_04-04.png" />
+    <None Include="Resources\QES_Splash_Transparent_041.png" />
+    <None Include="Resources\QES_Splash_Transparent_04.png" />
+    <None Include="Resources\QES_Splash_Transparent_.png" />
+    <None Include="Resources\QES_Splash_Transparent_4.png" />
+    <None Include="Resources\QES_Splash_Transparent.png" />
+    <None Include="Resources\QES_Splash_Transparent-04.png" />
+    <None Include="Resources\Cover LOGO1.png" />
+    <None Include="Resources\Untitledsss.jpg" />
+    <None Include="Resources\Cover LOGO.png" />
+    <None Include="Resources\connect_page1.png" />
+    <None Include="Resources\preferences_page.png" />
+    <None Include="Resources\grph_page.png" />
+    <None Include="Resources\dashboard_page.png" />
+    <None Include="Resources\connect_page.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\backup_page.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\settings_page.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Word Splash.png" />
+    <None Include="Resources\PanelCurve_Bottom.png" />
+    <None Include="Resources\QES_Splash_Screen.png" />
+    <None Include="Resources\horizontal_shadow_-01.png" />
+    <None Include="Resources\Open_FileNormal.png" />
+    <None Include="Resources\showPW.png" />
+    <None Include="Resources\Cross_PNG.png" />
+    <None Include="Resources\Question_PNG.png" />
+    <None Include="Resources\Information_PNG.png" />
+    <None Include="Resources\PanelCurve_Top.png" />
+    <None Include="Resources\Open_FilePNG.png" />
+    <None Include="Resources\Open_Folder.png" />
+    <None Include="Resources\blueCircle.gif" />
+    <None Include="Resources\basicloader.gif" />
+    <None Include="Resources\spinner_shadow.gif" />
+    <None Include="Resources\selectedTab02.png" />
+    <None Include="Resources\selectedTab01.png" />
+    <None Include="Resources\delete_icon.png" />
+    <None Include="Resources\restart_solid.png" />
+    <None Include="Resources\restart_material.png" />
+    <None Include="Resources\grph_btn.png" />
+    <None Include="Resources\spinner.gif" />
+    <None Include="Resources\Preferences.png" />
+    <None Include="Resources\Battery_Shadow_Panel.png" />
+    <None Include="Resources\Soft_Shadow_button.png" />
+    <None Include="Resources\Shadow_Panel.png" />
+    <None Include="Resources\QES_SplashScreen.png" />
+    <None Include="Resources\Setting3Gears_btn.png" />
+    <None Include="Resources\Graph_btn.png" />
+    <None Include="Resources\Dashboard_btn.png" />
+    <None Include="Resources\Connect_btn.png" />
+    <None Include="Resources\Backup_btn.png" />
+    <None Include="Resources\TileImage.png" />
+    <None Include="Resources\QES_Connect_LOGO.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\battery_landscape_Cropped2.png" />
+    <None Include="Resources\bottom_rightGraphics.png" />
+    <None Include="Resources\battery_landscape_Cropped1.png" />
+    <None Include="Resources\battery_landscape_Cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

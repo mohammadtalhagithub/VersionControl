@@ -1,0 +1,23 @@
+<< ReleaseNotes >>
+
+QES Connect, Windows XP/Vista(32/64)/7(32/64)/8,8.1(32/64), 10(32/64), 11(32/64).
+
+Copyright (C) 2022 Quick Engineering Solutions Pvt. Ltd.
+
+This release contains the following components:
+
+* x64 directory named "64 Bit Setup"
+	* 0x0409.ini
+	* QES Connect.msi
+	* Setup_64.exe
+	* Setup.ini
+	* ReleaseNotes.txt (this file)
+	* License Agreement.txt
+
+* x86 directory named "32 Bit Setup"
+	* 0x0409.ini
+	* QES Connect.msi
+	* Setup_32.exe
+	* Setup.ini
+	* ReleaseNotes.txt (this file)
+	* License Agreement.txt
