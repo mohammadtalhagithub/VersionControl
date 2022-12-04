@@ -1,0 +1,11 @@
+Installation Instructions
+
+>> For 64 bit Operating Systems:
+Go to folder "64 Bit Setup", and double click on "Setup_64.exe"
+
+>> For 32 bit Operating Systems:
+Go to folder "32 Bit Setup", and double click on "Setup_32.exe"
+
+>> In both cases, first a pre-requisite driver will install, and then the main QES Connect application.
+
+>> After the complete installation of the software, if the device does not show up in the app's "Available Ports" dropdown box, remove the device USB (if already connected before software installation) and re-insert it and then click green refresh button in the software.

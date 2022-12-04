@@ -1,0 +1,34 @@
+private bool show_Tiles = false;
+
+/// <summary>
+/// Public Property of show_Tiles boolean, used to trigger whenever the boolean
+/// value changes from false to true and vice-versa.
+/// </summary>
+public bool Show_Tiles
+{
+	get { return show_Tiles; }
+	set
+	{
+		if (value == show_Tiles)
+			return;
+		
+		show_Tiles = value;
+		if (Show_Tiles) // is true
+		{
+			foreach (Control ctrl in Dashboard_Control._tableLayoutPanel1.Controls)
+			{
+				ctrl.Visible = false;
+			}
+			Dashboard_Control._tableLayoutPanel1.Visible = false;
+		}
+		
+		else if (Show_Tiles == false)
+		{
+			foreach (Control ctrl in Dashboard_Control._tableLayoutPanel1.Controls)
+			{
+				ctrl.Visible = false;
+			}
+			Dashboard_Control._tableLayoutPanel1.Visible = false;
+		}
+	}
+}
